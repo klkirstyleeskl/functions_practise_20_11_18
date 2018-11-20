@@ -1,3 +1,5 @@
+require('date')
+
 #return_10 test
 def return_10
   return 10
@@ -36,4 +38,9 @@ end
 #test add_string_as_number
 def add_string_as_number (string_1, string_2)
   return string_1.to_i + string_2.to_i
+end
+
+# test number_to_full_month_name
+def number_to_full_month_name (month)
+  return Date::MONTHNAMES[month]
 end
