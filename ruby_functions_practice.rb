@@ -27,3 +27,8 @@ end
 def length_of_string(phrase)
   return phrase.length
 end
+
+#test join_string
+def join_string (string_1, string_2)
+  return string_1  +  string_2
+end
