@@ -4,6 +4,6 @@ def return_10
 end
 
 #test_add test
-def test_add
-  return 
+def add(num1, num2)
+    return num1 + num2
 end
