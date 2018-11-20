@@ -44,3 +44,13 @@ end
 def number_to_full_month_name (month)
   return Date::MONTHNAMES[month]
 end
+
+# test number_to_full_month_name
+def number_to_full_month_name (month)
+  return Date::MONTHNAMES[month]
+end
+
+# test number_to_short_month_name
+def number_to_short_month_name (month)
+  return Date::ABBR_MONTHNAMES[month]
+end
