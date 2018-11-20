@@ -7,3 +7,8 @@ end
 def add(num1, num2)
     return num1 + num2
 end
+
+#test_subtract test
+def subtract(num1, num2)
+    return num1 - num2
+end
