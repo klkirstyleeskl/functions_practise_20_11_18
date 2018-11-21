@@ -54,3 +54,8 @@ end
 def number_to_short_month_name (month)
   return Date::ABBR_MONTHNAMES[month]
 end
+
+# cube_result test
+def multiply(num1)
+  return num1 ** 3
+end
